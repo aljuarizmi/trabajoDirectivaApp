@@ -14,14 +14,14 @@ export class AppComponent {
   registrado=false;
   nombre:string="";
   apellido:string="";
-  entradas:object[];
+  entradas:{titulo:string}[];
   constructor(){
     this.entradas=[
-      {cabecera:"Phyton cada día más presente"},
-      {cabecera:"Java presente desde hace más de veinte años"},
-      {cabecera:"Javascript cada vez más funcional"},
-      {cabecera:"Kotlin, potencia para tus apps"},
-      {cabecera:"¿Dónde quedó pascal?"},
+      {titulo:"Phyton cada día más presente"},
+      {titulo:"Java presente desde hace más de veinte años"},
+      {titulo:"Javascript cada vez más funcional"},
+      {titulo:"Kotlin, potencia para tus apps"},
+      {titulo:"¿Dónde quedó pascal?"},
     ]
   };
   registrarUsuario(){
